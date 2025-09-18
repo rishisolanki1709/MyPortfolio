@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Project Showcase</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Video Section */
+        .project-hero {
+            width: 90%;
+            max-width: 1000px;
+            background: #000;
+            padding: 20px;
+            border-radius: 4px;
+        }
+
+        .project-hero video {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
+
+        /* Project Details */
+        .project-details {
+            margin-top: 30px;
+            max-width: 900px;
+        }
+
+        .project-details h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .project-details p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 20px;
+        }
+
+        /* Tags */
+        .tags {
+            margin: 15px 0;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #1a1a1a;
+            padding: 6px 14px;
+            margin: 4px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .tag:hover {
+            color: red;
+            transition: ease-in 0.2s;
+        }
+
+        /* Buttons */
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background: #1a1a1a;
+            padding: 7px 8px;
+            border-radius: 5px;
+            margin: 8px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .buttons a:hover {
+            background: #b20710;
+        }
+
+        @media (max-width: 768px) {
+            .project-details h1 {
+                font-size: 1.8rem;
+            }
+
+            .project-details p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Project Showcase -->
+    <section class="project-hero">
+        <video autoplay muted loop controls>
+            <source src="Hotel Management 2.1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Project Details -->
+    <section class="project-details">
+        <h1>Velvet Vista Hotel Management Project</h1>
+        <hr>
+        <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">JPA</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Thymeleaf</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+        </div>
+        <p>
+           The Hotel Management System is a full-stack web application built using Spring Boot, JPA (Hibernate), REST APIs, and Thymeleaf. It is designed to streamline hotel operations by providing dedicated portals for customers, employees, and administrators. The application follows a layered architecture with controllers, services, repositories, and entity classes, ensuring scalability and maintainability.
+<br>
+<br>
+<h3>Key Features:</h3>
+Customer Module:
+<br>
+New user registration and login.
+<br>
+Browse available rooms with details.
+<br>
+Online booking and booking history tracking.
+<br>
+Email notifications for successful bookings.
+<br>
+<br>
+Employee Module:
+<br>
+Manage offline bookings on behalf of customers.
+<br>
+Check room availability and update booking records.
+<br>
+View and manage customer details.
+<br>
+<br>
+Admin Module:
+<br>
+Add, update, or remove employees and rooms.
+<br>
+Manage admin accounts.
+<br>
+View all booking details and hotel operations at a glance.
+<br>
+<br>
+<h3>Technical Highlights:</h3>
+
+Backend: Spring Boot with RESTful controllers and service layers.
+<br>
+Database: MySQL with JPA/Hibernate for ORM and repository-based queries.
+<br>
+Frontend: Thymeleaf templates with HTML, CSS, and JavaScript.
+<br>
+Email Service: Integrated email notifications for booking confirmations.
+<br>
+Architecture: Follows MVC pattern with clear separation of concerns.
+<br>
+<br>
+This project demonstrates real-world hotel management workflows by integrating booking, staff, and administrative functionalities into a single platform. It emphasizes modular design, database-driven operations, and professional UI integration.
+       
+        </p>
+
+
+
+        <div class="buttons">
+            <a href="https://github.com/rishisolanki1709/Hotel-Management-Project-2.0" target="_blank">GitHub Repo</a>
+            <a href="https://www.linkedin.com/posts/rishi-solanki-java-dev_java-springboot-restapi-activity-7374461738919809025-s_fR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFRD9BQBLhElUdc7IYo-eEL7ohFAaiJbuQw" target="_blank">LinkedIn Post</a>
+        </div>
+    </section>
+
+</body>
+
+</html>
